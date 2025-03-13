@@ -22,9 +22,9 @@
 Решение 1
 Разрешены следующие сетевые службы:
 PORT STATE SERVICE
-● 21/tcp open ftp
-● 22/tcp open ssh
-● 23/tcp open telnet
++● 21/tcp open ftp
++● 22/tcp open ssh
++● 23/tcp open telnet
 ● 25/tcp open smtp
 ● 53/tcp open domain
 ● 80/tcp open http
@@ -49,7 +49,7 @@ PORT STATE SERVICE
 Были обнаружены следующие уязвимости:
 1. vsftpd 2.3.4 - Backdoor Command Execution.
 2. OpenSSH < 7.7 - User Enumeration (2).
-MySQL 5.0.x - IF Query Handling Remote Denial of Service.
+3. MySQL 5.0.x - IF Query Handling Remote Denial of Service.
 
 ### Задание 2
 ##### Проведите сканирование Metasploitable в режимах SYN, FIN, Xmas, UDP.
